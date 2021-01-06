@@ -48,7 +48,7 @@ class Register extends Component {
 
         <form noValidate onSubmit={this.onSubmitHandler}>
           <TextFieldGroup
-            placeholder={'e.g.,Ender Wiggin'}
+            placeholder={'e.g.,blackwatch'}
             type={'text'}
             name={'name'}
             value={this.state.name}
@@ -57,7 +57,7 @@ class Register extends Component {
             label={'Name'}
           />
           <TextFieldGroup
-            placeholder={'e.g.,ender@battle.edu'}
+            placeholder={'e.g.,abc@gmail.com'}
             name={'email'}
             type={'email'}
             value={this.state.email}
