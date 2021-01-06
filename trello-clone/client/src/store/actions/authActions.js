@@ -32,14 +32,7 @@ export const loginUser = userData => {
         localStorage.setItem('jwtToken', token);
         setAuthToken(token);
         const decoded = jwt_decode(token);
-        /*
-                decoded =
-                {email: "manish.thedarknight@gmail.com"
-                exp: 1539597676
-                iat: 1539561676
-                userId: "5bc3c9320d57812a80da364b
-                }"
-                * */
+        
         dispatch(setCurrentUser(decoded));
       })
       .catch(err =>
