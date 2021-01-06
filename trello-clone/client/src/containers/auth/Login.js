@@ -52,7 +52,7 @@ class Login extends Component {
 
         <form noValidate onSubmit={this.onSubmitHandler}>
           <TextFieldGroup
-            placeholder={'e.g.,ender@battle.edu'}
+            placeholder={'e.g.,abc@gmail.com'}
             name={'email'}
             type={'email'}
             value={this.state.email}
